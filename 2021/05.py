@@ -20,7 +20,7 @@ for i in range(len(x1)):
         for yit in range(ymin, ymax + 1):
             ar[x1[i], yit] += 1
 
-print(f"Part 2: {len(ar[ar > 1])}")
+print(f"Part 1: {len(ar[ar > 1])}")
 
 # Part 2
 def direction(increasing):
