@@ -33,7 +33,7 @@ for n, f in enumerate(folds):
         print(f"Part 1: {int(np.sum(ar))}")
 
 print(
-    f"Part 2: \n %s"
+    "Part 2: \n %s"
     % str(np.flipud(ar))
     .replace("0", " ")
     .replace("1", "#")
